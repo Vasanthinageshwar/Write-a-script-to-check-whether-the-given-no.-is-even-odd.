@@ -1,0 +1,10 @@
+#!/bin/sh
+echo -n "enter num"
+read n
+echo -n "given num is"
+if [ $((num%2)) -eq 0 ]
+then 
+	echo "$n is even"
+else
+	echo "$n is odd"
+fi
